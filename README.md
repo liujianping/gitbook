@@ -1,4 +1,6 @@
-# 快速开始
+# 操作指南
+
+本书是一本`GitBook`功能的实践项目，方便测试相关功能与插件。项目完全开源，需要请自取。
 
 ## 工具安装
 
@@ -32,4 +34,19 @@ $: gitbook install
 $: gitbook serve
 ````
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
+<script>
+  var gitalk = new Gitalk({
+      clientID: '381ef6e29bdffb9ad797',
+      clientSecret: '558305235c247d8766aa9d051cfce259818c0b85',
+      repo: 'website',
+      owner: 'gitdigg',
+      admin: ['liujianping'],
+      id: location.pathname,      // Ensure uniqueness and length less than 50
+      distractionFreeMode: false  // Facebook-like distraction free mode
+    })
+    gitalk.render('gitalk-container')
+</script>
 

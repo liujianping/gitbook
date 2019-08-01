@@ -38,9 +38,15 @@
         "alerts",
         "ancre-navigation",
         "code",
-        "todo"
+        "todo",
+        "custom-favicon",
+        "ga"
     ],
     "pluginsConfig": {
+        "ga": {
+            "token": "UA-141133293-1"
+        },
+        "favicon": "logo/logo.png",
         "code": {
             "copyButtons": true
         },

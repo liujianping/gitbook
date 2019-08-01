@@ -1,6 +1,6 @@
 # Summary
 
-* [快速开始](README.md)
+* [操作指南](README.md)
 * 第一章 基本操作
     * [1.1 目录操作](basic/directory.md)
     * [1.2 文件操作](basic/file.md)
