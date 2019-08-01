@@ -23,10 +23,10 @@ $: gitbook build
 
 ## 项目下载
 
-本项目地址: [github.com/liujianping/guide](github.com/liujianping/guide).可直接下载测试。
+本项目地址: [github.com/liujianping/gitbook](github.com/liujianping/gitbook).可直接下载测试。
 
 ````
-$: git clone github.com/liujianping/guide
+$: git clone https://github.com/liujianping/gitbook.git
 $: cd guide
 $: gitbook install
 $: gitbook serve
