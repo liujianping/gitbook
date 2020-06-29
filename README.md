@@ -20,7 +20,7 @@ $: gitbook install
 # 本地服务
 $: gitbook serve
 # 打包
-$: gitbook build
+$: gitbook build . docs
 ````
 
 ## 项目下载
